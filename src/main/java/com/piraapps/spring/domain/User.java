@@ -13,8 +13,8 @@ public class User implements Serializable {
 	private String id;
 	private String name;
 	private String email;
-	public User() {
-	}	
+	public User() {	}
+	
 	public User(String id, String name, String email) {
 		super();
 		this.id = id;
